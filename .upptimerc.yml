@@ -6,10 +6,18 @@ sites:
   - name: Automate Backend
     url: https://keeper.dev.staking.ankr.com/v1/health
     
-    
 status-website:
   baseUrl: /automate-status # where "repo" is your repository name
   name: Ankr Automate Status
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
 
 #status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
