@@ -5,6 +5,11 @@ repo: automate-status # The name of this repository
 sites:
   - name: Automate Backend
     url: https://keeper.dev.staking.ankr.com/v1/health
+    
+    
+status-website:
+  baseUrl: /automate-status # where "repo" is your repository name
+  name: Ankr Automate Status
 
 #status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
