@@ -9,7 +9,7 @@ sites:
 status-website:
   baseUrl: /automate-status # where "repo" is your repository name
   name: Ankr Automate Status
-  favicon: https://www.ankr.com/static/favicon/favicon-32x32.png
+  favicon: "https://www.ankr.com/static/favicon/favicon-32x32.png"
   
 workflowSchedule:
   graphs: "0 0 * * *"
@@ -21,7 +21,7 @@ workflowSchedule:
   uptime: "*/5 * * * *"
   
 i18n:
-  footer:
+  footer: Ankr Automate Status
 
 #status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
