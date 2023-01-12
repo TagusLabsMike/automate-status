@@ -9,7 +9,8 @@ sites:
 status-website:
   baseUrl: /automate-status # where "repo" is your repository name
   name: Ankr Automate Status
-
+  favicon: https://www.ankr.com/static/favicon/favicon-32x32.png
+  
 workflowSchedule:
   graphs: "0 0 * * *"
   responseTime: "0 23 * * *"
