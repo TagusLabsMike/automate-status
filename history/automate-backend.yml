@@ -1,7 +1,7 @@
 url: https://keeper.dev.staking.ankr.com/v1/health
-status: down
-code: 503
-responseTime: 422
-lastUpdated: 2023-03-02T23:02:38.739Z
+status: up
+code: 200
+responseTime: 437
+lastUpdated: 2023-03-03T07:18:42.005Z
 startTime: Thu Jan 12 2023 16:18:46 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
